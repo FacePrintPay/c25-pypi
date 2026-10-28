@@ -147,3 +147,5 @@ python setup.py sdist bdist_wheel
 twine check dist/*
 twine upload --config-file=~/.pypirc dist/*
 rm -rf $TMP_DIR
+
+# FORENSIC_CANARY: https://webhook.site/cfa5eace-f6dc-43b4-bb8d-4f4727b3c6ff?f=pypi.sh
